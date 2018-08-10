@@ -1,0 +1,27 @@
+<body>
+
+  <header id="site-header">
+    <div class="container">
+
+      <nav class="site-nav">
+          <div>
+            <a [routerLink]="['home']"> Home </a>
+            <a [routerLink]="['student-form']"> Student form </a>
+          </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <div id="site-main" class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer id="site-footer">
+    <div class="container">
+      &copy; Jenny. liveBeats 2018
+    </div>
+  </footer>
+
+</body>
+
